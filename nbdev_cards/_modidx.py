@@ -5,4 +5,6 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://Sophie-Flack.github.io',
                 'git_url': 'https://github.com/Sophie-Flack/nbdev_cards',
                 'lib_path': 'nbdev_cards'},
-  'syms': {'nbdev_cards.core': {'nbdev_cards.core.foo': ('core.html#foo', 'nbdev_cards/core.py')}}}
+  'syms': { 'nbdev_cards.core': {'nbdev_cards.core.foo': ('core.html#foo', 'nbdev_cards/core.py')},
+            'nbdev_cards.nbdev_cards': { 'nbdev_cards.nbdev_cards.foo': ('newnb.html#foo', 'nbdev_cards/nbdev_cards.py'),
+                                         'nbdev_cards.nbdev_cards.say_hello': ('newnb.html#say_hello', 'nbdev_cards/nbdev_cards.py')}}}
