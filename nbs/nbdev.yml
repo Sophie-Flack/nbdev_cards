@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "nbdev_cards"
+  site-url: "https://Sophie-Flack.github.io/nbdev_cards"
+  description: "create deck of cards lib using nbdev"
+  repo-branch: main
+  repo-url: "https://github.com/Sophie-Flack/nbdev_cards"
